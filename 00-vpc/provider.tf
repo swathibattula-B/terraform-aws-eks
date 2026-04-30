@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "mylife-myrule1" 
+    bucket = "mylife-myrule11" 
     key    = "terraform-eks-vpc"
     region = "us-east-1"
     encrypt = true
