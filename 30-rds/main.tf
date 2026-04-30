@@ -15,7 +15,7 @@ module "db" {
   password_wo = "RoboShop#123"
   password_wo_version = 1
 
-  vpc_security_group_ids = [aws_security_group.mysql_sg.id]
+  vpc_security_group_ids = [local.mysql_sg_id]
 
   # DB subnet group
   create_db_subnet_group = false
