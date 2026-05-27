@@ -5,7 +5,7 @@ variable "environment" {
     default = "dev"   
 }
 
-variable "sg_name" {
+variable "sg_names" {
     type= list
     default = [
        # Databases

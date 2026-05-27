@@ -1,5 +1,5 @@
 module "sg" {
-    count = length(var.sg_name)
+    count = length(var.sg_names)
     source = "../../terraform-aws-sg1"
     project = var.project
     environment = var.environment
